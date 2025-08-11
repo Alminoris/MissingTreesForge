@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwoodtrees:block/silver_maple_slab"
+    },
+    "type=double": {
+      "model": "silverwoodtrees:block/silver_maple_planks"
+    },
+    "type=top": {
+      "model": "silverwoodtrees:block/silver_maple_slab_top"
+    }
+  }
+}

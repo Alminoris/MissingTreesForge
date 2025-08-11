@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silverwoodtrees:block/silver_maple_planks"
+  }
+}

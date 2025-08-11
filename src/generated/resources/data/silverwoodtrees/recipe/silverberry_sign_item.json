@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "silverberry",
+  "key": {
+    "#": {
+      "item": "silverwoodtrees:silverberry_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "id": "silverwoodtrees:silverberry_sign_item"
+  }
+}

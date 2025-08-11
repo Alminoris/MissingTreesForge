@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "silverberry",
+  "ingredients": [
+    {
+      "item": "silverwoodtrees:silverberry_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwoodtrees:silverberry_button"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwoodtrees:block/silverberry_slab"
+    },
+    "type=double": {
+      "model": "silverwoodtrees:block/silverberry_planks"
+    },
+    "type=top": {
+      "model": "silverwoodtrees:block/silverberry_slab_top"
+    }
+  }
+}

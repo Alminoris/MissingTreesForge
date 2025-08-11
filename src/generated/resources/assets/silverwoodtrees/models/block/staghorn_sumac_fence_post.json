@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "silverwoodtrees:block/staghorn_sumac_planks"
+  }
+}

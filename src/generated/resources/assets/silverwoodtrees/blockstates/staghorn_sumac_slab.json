@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwoodtrees:block/staghorn_sumac_slab"
+    },
+    "type=double": {
+      "model": "silverwoodtrees:block/staghorn_sumac_planks"
+    },
+    "type=top": {
+      "model": "silverwoodtrees:block/staghorn_sumac_slab_top"
+    }
+  }
+}

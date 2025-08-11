@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "silverwoodtrees:block/walnut_pressure_plate"
+    },
+    "powered=true": {
+      "model": "silverwoodtrees:block/walnut_pressure_plate_down"
+    }
+  }
+}

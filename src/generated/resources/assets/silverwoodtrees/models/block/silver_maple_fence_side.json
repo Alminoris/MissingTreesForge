@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "silverwoodtrees:block/silver_maple_planks"
+  }
+}

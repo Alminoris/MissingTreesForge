@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "silverwoodtrees:block/staghorn_sumac_planks",
+    "side": "silverwoodtrees:block/staghorn_sumac_planks",
+    "top": "silverwoodtrees:block/staghorn_sumac_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silverwoodtrees:item/walnut_sign_item"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "silverwoodtrees:block/staghorn_sumac_log_top",
+    "side": "silverwoodtrees:block/staghorn_sumac_log"
+  }
+}

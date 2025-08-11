@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "staghorn_sumac",
+  "ingredients": [
+    {
+      "item": "silverwoodtrees:staghorn_sumac_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwoodtrees:staghorn_sumac_button"
+  }
+}
