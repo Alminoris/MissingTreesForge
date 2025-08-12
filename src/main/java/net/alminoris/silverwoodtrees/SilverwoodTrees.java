@@ -18,7 +18,7 @@ import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -30,7 +30,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
-import static net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper.WOOD_NAMES;
+import static net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper.*;
+import static net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper.WOODEN_CHEST_BOATS;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SilverwoodTrees.MOD_ID)
@@ -45,8 +46,6 @@ public class SilverwoodTrees
         IEventBus modEventBus = context.getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
-
-        ModItemGroups.register(modEventBus);
 
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
@@ -70,10 +69,36 @@ public class SilverwoodTrees
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
+    private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
         //if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             //event.accept(EXAMPLE_BLOCK_ITEM);
+
+        if(event.getTab() == ModItemGroups.SILVERWOODTREES_TAB)
+        {
+            for (String name : WOOD_NAMES)
+            {
+                event.accept(WOODEN_SAPLINGS.get(name).get());
+                event.accept(LEAVES.get(name).get());
+                event.accept(LOGS.get(name).get());
+                event.accept(WOODS.get(name).get());
+                event.accept(STRIPPED_LOGS.get(name).get());
+                event.accept(STRIPPED_WOODS.get(name).get());
+                event.accept(WOODEN_PLANKS.get(name).get());
+                event.accept(WOODEN_SLABS.get(name).get());
+                event.accept(WOODEN_STAIRS.get(name).get());
+                event.accept(WOODEN_FENCES.get(name).get());
+                event.accept(WOODEN_FENCE_GATES.get(name).get());
+                event.accept(WOODEN_DOORS.get(name).get());
+                event.accept(WOODEN_TRAPDOORS.get(name).get());
+                event.accept(WOODEN_BUTTONS.get(name).get());
+                event.accept(WOODEN_PRESSURE_PLATES.get(name).get());
+                event.accept(WOODEN_SIGN_ITEMS.get(name).get());
+                event.accept(WOODEN_HANGING_SIGN_ITEMS.get(name).get());
+                event.accept(WOODEN_BOATS.get(name).get());
+                event.accept(WOODEN_CHEST_BOATS.get(name).get());
+            }
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -24,6 +24,5 @@
     "recipes": [
       "silverwoodtrees:staghorn_sumac_boat"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

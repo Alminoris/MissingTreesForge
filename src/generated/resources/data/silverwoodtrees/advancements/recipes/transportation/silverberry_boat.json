@@ -24,6 +24,5 @@
     "recipes": [
       "silverwoodtrees:silverberry_boat"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

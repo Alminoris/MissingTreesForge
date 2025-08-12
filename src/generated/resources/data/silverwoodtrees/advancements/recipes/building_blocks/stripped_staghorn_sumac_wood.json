@@ -30,6 +30,5 @@
     "recipes": [
       "silverwoodtrees:stripped_staghorn_sumac_wood"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

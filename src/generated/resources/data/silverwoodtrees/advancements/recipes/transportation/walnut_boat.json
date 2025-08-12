@@ -24,6 +24,5 @@
     "recipes": [
       "silverwoodtrees:walnut_boat"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

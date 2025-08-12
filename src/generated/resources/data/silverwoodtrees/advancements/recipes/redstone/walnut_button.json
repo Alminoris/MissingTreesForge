@@ -30,6 +30,5 @@
     "recipes": [
       "silverwoodtrees:walnut_button"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

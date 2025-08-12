@@ -30,6 +30,5 @@
     "recipes": [
       "silverwoodtrees:staghorn_sumac_pressure_plate"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

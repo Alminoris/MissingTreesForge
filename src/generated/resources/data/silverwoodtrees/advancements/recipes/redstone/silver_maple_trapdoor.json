@@ -30,6 +30,5 @@
     "recipes": [
       "silverwoodtrees:silver_maple_trapdoor"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

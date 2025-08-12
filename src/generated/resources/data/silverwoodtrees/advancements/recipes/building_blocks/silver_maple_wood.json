@@ -30,6 +30,5 @@
     "recipes": [
       "silverwoodtrees:silver_maple_wood"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
