@@ -15,14 +15,18 @@
       "hanging_leaves_extension_chance": 0.15,
       "height": {
         "type": "minecraft:uniform",
-        "max_inclusive": 6,
-        "min_inclusive": 4
+        "value": {
+          "max_inclusive": 6,
+          "min_inclusive": 4
+        }
       },
       "offset": 2,
       "radius": {
         "type": "minecraft:uniform",
-        "max_inclusive": 4,
-        "min_inclusive": 3
+        "value": {
+          "max_inclusive": 4,
+          "min_inclusive": 3
+        }
       },
       "wide_bottom_layer_hole_chance": 0.4
     },
@@ -51,13 +55,17 @@
       "branch_count": 3,
       "branch_end_offset_from_top": {
         "type": "minecraft:uniform",
-        "max_inclusive": 2,
-        "min_inclusive": 1
+        "value": {
+          "max_inclusive": 2,
+          "min_inclusive": 1
+        }
       },
       "branch_horizontal_length": {
         "type": "minecraft:uniform",
-        "max_inclusive": 3,
-        "min_inclusive": 2
+        "value": {
+          "max_inclusive": 3,
+          "min_inclusive": 2
+        }
       },
       "branch_start_offset_from_top": {
         "max_inclusive": 0,

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "silver_maple",
+  "ingredients": [
+    {
+      "item": "silverwoodtrees:silver_maple_planks"
+    }
+  ],
+  "result": {
+    "item": "silverwoodtrees:silver_maple_button"
+  }
+}

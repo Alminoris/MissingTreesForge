@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "staghorn_sumac",
+  "key": {
+    "#": {
+      "item": "silverwoodtrees:staghorn_sumac_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "silverwoodtrees:staghorn_sumac_door"
+  },
+  "show_notification": true
+}
