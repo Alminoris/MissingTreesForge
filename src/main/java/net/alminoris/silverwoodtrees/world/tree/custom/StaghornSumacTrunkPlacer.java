@@ -25,7 +25,6 @@ import java.util.function.Function;
 
 public class StaghornSumacTrunkPlacer extends TrunkPlacer
 {
-
     private static final Codec<UniformInt> BRANCH_START_OFFSET_FROM_TOP_CODEC = UniformInt.CODEC
             .codec()
             .validate(
@@ -78,10 +77,15 @@ public class StaghornSumacTrunkPlacer extends TrunkPlacer
     }
 
     @Override
-    public List<FoliagePlacer.FoliageAttachment> placeTrunk(LevelSimulatedReader world, BiConsumer<BlockPos,
-            BlockState> replacer, RandomSource random, int height, BlockPos startPos, TreeConfiguration config)
+    public List<FoliagePlacer.FoliageAttachment> placeTrunk(LevelSimulatedReader world,
+                                                            BiConsumer<BlockPos, BlockState> replacer,
+                                                            RandomSource random,
+                                                            int height,
+                                                            BlockPos startPos,
+                                                            TreeConfiguration config)
     {
         setDirtAt(world, replacer, random, startPos.below(), config);
+
         int i = Math.max(0, height - 1 + this.branchStartOffsetFromTop.sample(random));
         int j = Math.max(0, height - 1 + this.secondBranchStartOffsetFromTop.sample(random));
         if (j >= i) {
@@ -91,6 +95,7 @@ public class StaghornSumacTrunkPlacer extends TrunkPlacer
         int k = this.branchCount.sample(random);
         boolean threeBranches = k == 3;
         boolean atLeastTwo = k >= 2;
+
         int trunkTop;
         if (threeBranches) {
             trunkTop = height;
@@ -100,7 +105,8 @@ public class StaghornSumacTrunkPlacer extends TrunkPlacer
             trunkTop = i + 1;
         }
 
-        for (int m = 0; m < trunkTop; m++) {
+        for (int m = 0; m < trunkTop; m++)
+        {
             this.placeLog(world, replacer, random, startPos.above(m), config);
         }
 
@@ -110,9 +116,16 @@ public class StaghornSumacTrunkPlacer extends TrunkPlacer
         }
 
         BlockPos.MutableBlockPos mutable = new BlockPos.MutableBlockPos();
+
         Direction direction = Direction.Plane.HORIZONTAL.getRandomDirection(random);
-        Function<BlockState, BlockState> withAxis = state -> state.trySetValue(RotatedPillarBlock.AXIS, direction.getAxis());
+
+        Function<BlockState, BlockState> withAxis = state ->
+        {
+            return state.trySetValue(RotatedPillarBlock.AXIS, direction.getAxis());
+        };
+
         nodes.add(this.generateBranch(world, replacer, random, height, startPos, config, withAxis, direction, i, i < trunkTop - 1, mutable));
+
         if (atLeastTwo) {
             nodes.add(this.generateBranch(world, replacer, random, height, startPos, config, withAxis, direction.getOpposite(), j, j < trunkTop - 1, mutable));
         }
@@ -134,9 +147,11 @@ public class StaghornSumacTrunkPlacer extends TrunkPlacer
             BlockPos.MutableBlockPos mutablePos)
     {
         mutablePos.set(startPos).move(Direction.UP, branchStartOffset);
+
         int i = height - 1 + this.branchEndOffsetFromTop.sample(random);
         boolean goUp = branchBelowHeight || i < branchStartOffset;
         int horizontal = this.branchHorizontalLength.sample(random) + (goUp ? 1 : 0);
+
         BlockPos target = startPos.relative(direction, horizontal).above(i);
         int steps = goUp ? 2 : 1;
 

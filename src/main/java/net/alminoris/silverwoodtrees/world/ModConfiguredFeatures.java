@@ -3,7 +3,6 @@ package net.alminoris.silverwoodtrees.world;
 import net.alminoris.silverwoodtrees.SilverwoodTrees;
 import net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper;
 import net.alminoris.silverwoodtrees.world.tree.custom.SilverMapleFoliagePlacer;
-import net.alminoris.silverwoodtrees.world.tree.custom.StaghornSumacFoliagePlacer;
 import net.alminoris.silverwoodtrees.world.tree.custom.StaghornSumacTrunkPlacer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -17,6 +16,7 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.CherryFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.BendingTrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
@@ -59,7 +59,7 @@ public class ModConfiguredFeatures
                         UniformInt.of(1, 2)),
 
                 BlockStateProvider.simple(ModBlockSetsHelper.LEAVES.get("staghorn_sumac").get()),
-                new StaghornSumacFoliagePlacer(
+                new CherryFoliagePlacer(
                         UniformInt.of(3, 4),
                         ConstantInt.of(2),
                         UniformInt.of(4, 6),

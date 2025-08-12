@@ -9,8 +9,8 @@
       }
     },
     "foliage_placer": {
-      "type": "silverwoodtrees:staghorn_sumac_foliage_placer",
-      "corner_hole_chance": 0.3,
+      "type": "minecraft:cherry_foliage_placer",
+      "corner_hole_chance": 0.4,
       "hanging_leaves_chance": 0.2,
       "hanging_leaves_extension_chance": 0.15,
       "height": {
