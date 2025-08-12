@@ -75,5 +75,6 @@
   "block.silverwoodtrees.stripped_walnut_wood": "Обтёсанная древесина из грецкого ореха",
   "item.silverwoodtrees.walnut_boat": "Лодка из грецкого ореха",
   "item.silverwoodtrees.walnut_chest_boat": "Лодка из грецкого ореха с сундуком",
-  "itemgroup.silverwoodtreestab": "Silverwood Trees"
+  "itemgroup.silverwoodtreestab": "Silverwood Trees",
+  "entity.silverwoodtrees.mod_chest_boat": "Лодка с сундуком"
 }

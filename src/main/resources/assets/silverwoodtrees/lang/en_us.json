@@ -75,5 +75,6 @@
   "block.silverwoodtrees.stripped_walnut_wood": "Stripped Walnut Wood",
   "item.silverwoodtrees.walnut_boat": "Walnut Boat",
   "item.silverwoodtrees.walnut_chest_boat": "Walnut Chest Boat",
-  "itemgroup.silverwoodtreestab": "Silverwood Trees"
+  "itemgroup.silverwoodtreestab": "Silverwood Trees",
+  "entity.silverwoodtrees.mod_chest_boat": "Chest Boat"
 }

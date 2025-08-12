@@ -75,5 +75,6 @@
   "block.silverwoodtrees.stripped_walnut_wood": "Abgeschältes Walnuss-Holz",
   "item.silverwoodtrees.walnut_boat": "Walnuss-Boot",
   "item.silverwoodtrees.walnut_chest_boat": "Walnuss-Boot mit Truhe",
-  "itemgroup.silverwoodtreestab": "Silverwood Trees"
+  "itemgroup.silverwoodtreestab": "Silverwood Trees",
+  "entity.silverwoodtrees.mod_chest_boat": "Boot mit Truhe"
 }

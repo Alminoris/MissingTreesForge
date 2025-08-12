@@ -75,5 +75,6 @@
   "block.silverwoodtrees.stripped_walnut_wood": "Bois de noix de pécan écorché",
   "item.silverwoodtrees.walnut_boat": "Bateau de noix de pécan",
   "item.silverwoodtrees.walnut_chest_boat": "Bateau de noix de pécan avec coffre",
-  "itemgroup.silverwoodtreestab": "Silverwood Trees"
+  "itemgroup.silverwoodtreestab": "Silverwood Trees",
+  "entity.silverwoodtrees.mod_chest_boat": "Bateau avec coffre"
 }

@@ -75,5 +75,6 @@
   "block.silverwoodtrees.stripped_walnut_wood": "Обтесана деревина з волоського горіха",
   "item.silverwoodtrees.walnut_boat": "Човен з волоського горіха",
   "item.silverwoodtrees.walnut_chest_boat": "Човен з волоського горіха зі скринею",
-  "itemgroup.silverwoodtreestab": "Silverwood Trees"
+  "itemgroup.silverwoodtreestab": "Silverwood Trees",
+  "entity.silverwoodtrees.mod_chest_boat": "Човен зі скринею"
 }
