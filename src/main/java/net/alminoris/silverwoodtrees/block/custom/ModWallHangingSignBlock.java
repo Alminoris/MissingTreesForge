@@ -11,7 +11,7 @@ public class ModWallHangingSignBlock extends WallHangingSignBlock
 {
     public ModWallHangingSignBlock(WoodType pType, Properties pProperties)
     {
-        super(pType, pProperties);
+        super(pProperties, pType);
     }
 
     @Override

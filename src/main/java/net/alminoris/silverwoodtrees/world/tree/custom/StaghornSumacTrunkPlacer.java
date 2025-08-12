@@ -2,11 +2,11 @@ package net.alminoris.silverwoodtrees.world.tree.custom;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
-import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.alminoris.silverwoodtrees.world.tree.ModTrunkPlacerTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.util.ExtraCodecs;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.valueproviders.IntProvider;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -25,27 +25,22 @@ import java.util.function.Function;
 
 public class StaghornSumacTrunkPlacer extends TrunkPlacer
 {
-    private static final Codec<UniformInt> BRANCH_START_OFFSET_FROM_TOP_CODEC = UniformInt.CODEC
-            .codec()
-            .validate(
-                    branchStartOffsetFromTop -> branchStartOffsetFromTop.getMaxValue() - branchStartOffsetFromTop.getMinValue() < 1
-                            ? DataResult.error(() -> "Need at least 2 blocks variation for the branch starts to fit both branches")
-                            : DataResult.success(branchStartOffsetFromTop)
-            );
-
-    public static final MapCodec<StaghornSumacTrunkPlacer> CODEC = RecordCodecBuilder.mapCodec(
-            instance -> trunkPlacerParts(instance)
-                    .and(
-                            instance.group(
-                                    IntProvider.codec(1, 3).fieldOf("branch_count").forGetter(tp -> tp.branchCount),
-                                    IntProvider.codec(2, 16).fieldOf("branch_horizontal_length").forGetter(tp -> tp.branchHorizontalLength),
-                                    IntProvider.validateCodec(-16, 0, BRANCH_START_OFFSET_FROM_TOP_CODEC)
-                                            .fieldOf("branch_start_offset_from_top")
-                                            .forGetter(tp -> tp.branchStartOffsetFromTop),
-                                    IntProvider.codec(-16, 16).fieldOf("branch_end_offset_from_top").forGetter(tp -> tp.branchEndOffsetFromTop)
-                            )
-                    )
-                    .apply(instance, StaghornSumacTrunkPlacer::new));
+    private static final Codec<UniformInt> BRANCH_START_CODEC = ExtraCodecs.validate(UniformInt.CODEC, (p_275181_) -> {
+        return p_275181_.getMaxValue() - p_275181_.getMinValue() < 1 ? DataResult.error(() -> {
+            return "Need at least 2 blocks variation for the branch starts to fit both branches";
+        }) : DataResult.success(p_275181_);
+    });
+    public static final Codec<StaghornSumacTrunkPlacer> CODEC = RecordCodecBuilder.create((p_273579_) -> {
+        return trunkPlacerParts(p_273579_).and(p_273579_.group(IntProvider.codec(1, 3).fieldOf("branch_count").forGetter((p_272644_) -> {
+            return p_272644_.branchCount;
+        }), IntProvider.codec(2, 16).fieldOf("branch_horizontal_length").forGetter((p_273612_) -> {
+            return p_273612_.branchHorizontalLength;
+        }), IntProvider.codec(-16, 0, BRANCH_START_CODEC).fieldOf("branch_start_offset_from_top").forGetter((p_272705_) -> {
+            return p_272705_.branchStartOffsetFromTop;
+        }), IntProvider.codec(-16, 16).fieldOf("branch_end_offset_from_top").forGetter((p_273633_) -> {
+            return p_273633_.branchEndOffsetFromTop;
+        }))).apply(p_273579_, StaghornSumacTrunkPlacer::new);
+    });
 
     private final IntProvider branchCount;
     private final IntProvider branchHorizontalLength;

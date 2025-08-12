@@ -1,5 +1,6 @@
 package net.alminoris.silverwoodtrees.world.tree.custom;
 
+import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.alminoris.silverwoodtrees.world.tree.ModFoliagePlacerTypes;
@@ -14,7 +15,7 @@ import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerTy
 
 public class SilverMapleFoliagePlacer extends FancyFoliagePlacer
 {
-    public static final MapCodec<SilverMapleFoliagePlacer> CODEC = RecordCodecBuilder.mapCodec(
+    public static final Codec<SilverMapleFoliagePlacer> CODEC = RecordCodecBuilder.create(
             instance -> blobParts(instance).apply(instance, SilverMapleFoliagePlacer::new)
     );
 

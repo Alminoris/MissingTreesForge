@@ -4,7 +4,7 @@ import net.alminoris.silverwoodtrees.SilverwoodTrees;
 import net.alminoris.silverwoodtrees.world.ModPlacedFeatures;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.biome.Biomes;
@@ -23,7 +23,7 @@ public class ModBiomeModifications
 
     public static final ResourceKey<BiomeModifier> ADD_SILVERBERRY_TREE = registerKey("add_tree_silverberry");
 
-    public static void bootstrap(BootstrapContext<BiomeModifier> context)
+    public static void bootstrap(BootstapContext<BiomeModifier> context)
     {
         var placedFeature = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);

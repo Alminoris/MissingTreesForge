@@ -1,27 +1,23 @@
 package net.alminoris.silverwoodtrees.datagen;
 
 import net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
-import java.util.concurrent.CompletableFuture;
-
-import static net.minecraft.data.recipes.ShapedRecipeBuilder.shaped;
-import static net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless;
+import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder
 {
-    public ModRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries)
+    public ModRecipeProvider(PackOutput pOutput)
     {
-        super(pOutput, pRegistries);
+        super(pOutput);
     }
 
     @Override
-    protected void buildRecipes(RecipeOutput recipeOutput)
+    protected void buildRecipes(Consumer<FinishedRecipe> recipeOutput)
     {
         for (String name : ModBlockSetsHelper.WOOD_NAMES)
         {
@@ -59,7 +55,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         }
     }
 
-    private static void planksFromLog(RecipeOutput p_298877_, ItemLike output, ItemLike input)
+    private static void planksFromLog(Consumer<FinishedRecipe> p_298877_, ItemLike output, ItemLike input)
     {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, output, 4)
                 .requires(input)

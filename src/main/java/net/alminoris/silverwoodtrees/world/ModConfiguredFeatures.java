@@ -5,7 +5,7 @@ import net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper;
 import net.alminoris.silverwoodtrees.world.tree.custom.SilverMapleFoliagePlacer;
 import net.alminoris.silverwoodtrees.world.tree.custom.StaghornSumacTrunkPlacer;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.valueproviders.ConstantInt;
@@ -30,8 +30,9 @@ public class ModConfiguredFeatures
     public static final ResourceKey<ConfiguredFeature<?, ?>> STAGHORN_SUMAC_KEY = registerKey("staghorn_sumac");
     public static final ResourceKey<ConfiguredFeature<?, ?>> SILVERBERRY_KEY = registerKey("silverberry");
 
-    public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context)
+    public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context)
     {
+
         register(context, WALNUT_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlockSetsHelper.LOGS.get("walnut").get()),
                 new BendingTrunkPlacer(4, 2, 3, 4, ConstantInt.of(2)),
@@ -85,7 +86,7 @@ public class ModConfiguredFeatures
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(SilverwoodTrees.MOD_ID, name));
     }
 
-    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstrapContext<ConfiguredFeature<?, ?>> context,
+    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstapContext<ConfiguredFeature<?, ?>> context,
                                                                                           ResourceKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }

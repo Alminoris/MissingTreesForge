@@ -12,7 +12,7 @@ public class ModWallSignBlock extends WallSignBlock
 {
     public ModWallSignBlock(WoodType pType, Properties pProperties)
     {
-        super(pType, pProperties);
+        super(pProperties, pType);
     }
 
     @Override
