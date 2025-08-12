@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:savanna_plateau",
+  "features": "silverwoodtrees:staghorn_sumac_placed",
+  "step": "vegetal_decoration"
+}

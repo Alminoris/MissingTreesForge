@@ -29,6 +29,18 @@ public class ModPlacedFeatures
         register(context, WALNUT_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.WALNUT_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.1f, 1),
                         ModBlockSetsHelper.WOODEN_SAPLINGS.get("walnut").get()));
+
+        register(context, SILVER_MAPLE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_MAPLE_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.1f, 1),
+                        ModBlockSetsHelper.WOODEN_SAPLINGS.get("silver_maple").get()));
+
+        register(context, STAGHORN_SUMAC_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.STAGHORN_SUMAC_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.1f, 1),
+                        ModBlockSetsHelper.WOODEN_SAPLINGS.get("staghorn_sumac").get()));
+
+        register(context, SILVERBERRY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVERBERRY_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.05f, 1),
+                        ModBlockSetsHelper.WOODEN_SAPLINGS.get("silverberry").get()));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name)

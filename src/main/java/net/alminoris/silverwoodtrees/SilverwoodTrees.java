@@ -8,6 +8,8 @@ import net.alminoris.silverwoodtrees.entity.client.ModBoatRenderer;
 import net.alminoris.silverwoodtrees.item.ModItemGroups;
 import net.alminoris.silverwoodtrees.item.ModItems;
 import net.alminoris.silverwoodtrees.util.helper.ModBlockSetsHelper;
+import net.alminoris.silverwoodtrees.world.tree.ModFoliagePlacerTypes;
+import net.alminoris.silverwoodtrees.world.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -52,6 +54,10 @@ public class SilverwoodTrees
         ModBlockEntities.register(modEventBus);
 
         ModEntities.register(modEventBus);
+
+        ModTrunkPlacerTypes.register(modEventBus);
+
+        ModFoliagePlacerTypes.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
