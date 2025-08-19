@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "scots_pine",
+  "ingredients": [
+    {
+      "item": "missingtrees:scots_pine_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "missingtrees:scots_pine_button"
+  }
+}

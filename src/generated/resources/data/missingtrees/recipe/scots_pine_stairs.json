@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "scots_pine",
+  "key": {
+    "#": {
+      "item": "missingtrees:scots_pine_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "missingtrees:scots_pine_stairs"
+  }
+}

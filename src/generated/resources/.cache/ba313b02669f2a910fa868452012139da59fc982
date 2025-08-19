@@ -1,5 +1,5 @@
-// 1.20.1	2025-08-19T08:25:20.5515955	Tags for minecraft:item mod id missingtrees
-1790719a14c3f256f59ff2834002751ebc57aaee data/minecraft/tags/items/hanging_signs.json
-59e9a695d592968bf71f7828dd561581585cd5f0 data/minecraft/tags/items/logs_that_burn.json
-f95cd0bac445effded9c7bdab7984d8be3b4b5ba data/minecraft/tags/items/planks.json
-ebd5aa88a0ba029bbbaa9949dd037dabfff115d0 data/minecraft/tags/items/signs.json
+// 1.21.1	2025-08-19T10:08:52.0802592	Tags for minecraft:item mod id missingtrees
+1790719a14c3f256f59ff2834002751ebc57aaee data/minecraft/tags/item/hanging_signs.json
+59e9a695d592968bf71f7828dd561581585cd5f0 data/minecraft/tags/item/logs_that_burn.json
+f95cd0bac445effded9c7bdab7984d8be3b4b5ba data/minecraft/tags/item/planks.json
+ebd5aa88a0ba029bbbaa9949dd037dabfff115d0 data/minecraft/tags/item/signs.json

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "missingtrees:swamp_oak_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "missingtrees:swamp_oak_planks"
+  }
+}

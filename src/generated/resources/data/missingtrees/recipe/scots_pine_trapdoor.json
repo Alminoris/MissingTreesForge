@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "scots_pine",
+  "key": {
+    "#": {
+      "item": "missingtrees:scots_pine_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "missingtrees:scots_pine_trapdoor"
+  }
+}

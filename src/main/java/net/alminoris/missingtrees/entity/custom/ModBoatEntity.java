@@ -52,10 +52,10 @@ public class ModBoatEntity extends Boat
     }
 
     @Override
-    protected void defineSynchedData()
+    protected void defineSynchedData(SynchedEntityData.Builder builder)
     {
-        super.defineSynchedData();
-        this.entityData.define(DATA_ID_TYPE, Type.AZALEA.ordinal());
+        super.defineSynchedData(builder);
+        builder.define(DATA_ID_TYPE, Type.AZALEA.ordinal());
     }
 
     protected void addAdditionalSaveData(CompoundTag pCompound) {

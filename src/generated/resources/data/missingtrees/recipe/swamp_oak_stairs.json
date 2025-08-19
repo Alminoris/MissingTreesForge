@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "swamp_oak",
+  "key": {
+    "#": {
+      "item": "missingtrees:swamp_oak_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "missingtrees:swamp_oak_stairs"
+  }
+}

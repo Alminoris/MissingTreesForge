@@ -4,7 +4,7 @@ import net.alminoris.missingtrees.MissingTrees;
 import net.alminoris.missingtrees.block.ModBlocks;
 import net.alminoris.missingtrees.util.helper.ModBlockSetsHelper;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.random.SimpleWeightedRandomList;
@@ -31,7 +31,7 @@ public class ModConfiguredFeatures
 {
     public static final ResourceKey<ConfiguredFeature<?, ?>> APPLE_KEY = registerKey("apple");
 
-    public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context)
+    public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context)
     {
         register(context, APPLE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlockSetsHelper.LOGS.get("apple").get()),
@@ -50,7 +50,7 @@ public class ModConfiguredFeatures
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(MissingTrees.MOD_ID, name));
     }
 
-    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstapContext<ConfiguredFeature<?, ?>> context,
+    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstrapContext<ConfiguredFeature<?, ?>> context,
                                                                                           ResourceKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }

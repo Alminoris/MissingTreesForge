@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "missingtrees:apple_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "missingtrees:apple_planks"
+  }
+}
