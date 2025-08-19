@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "apple",
+  "key": {
+    "#": {
+      "item": "missingtrees:apple_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "missingtrees:apple_door"
+  },
+  "show_notification": true
+}

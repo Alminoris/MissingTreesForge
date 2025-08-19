@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "missingtrees:block/swamp_oak_slab"
+    },
+    "type=double": {
+      "model": "missingtrees:block/swamp_oak_planks"
+    },
+    "type=top": {
+      "model": "missingtrees:block/swamp_oak_slab_top"
+    }
+  }
+}

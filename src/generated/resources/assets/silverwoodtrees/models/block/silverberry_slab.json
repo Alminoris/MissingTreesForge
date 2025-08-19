@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "silverwoodtrees:block/silverberry_planks",
-    "side": "silverwoodtrees:block/silverberry_planks",
-    "top": "silverwoodtrees:block/silverberry_planks"
-  }
-}

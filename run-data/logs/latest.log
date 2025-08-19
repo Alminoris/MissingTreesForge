@@ -1,29 +1,43 @@
-[12серп.2025 09:44:15.060] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, silverwoodtrees, --all, --output, F:\Programming\MinecraftModding\Projects\MC\SilverwoodTreesForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\MC\SilverwoodTreesForge\src\main\resources]
-[12серп.2025 09:44:15.071] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[12серп.2025 09:44:15.073] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[12серп.2025 09:44:15.349] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[12серп.2025 09:44:15.629] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/olega/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[12серп.2025 09:44:18.874] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12серп.2025 09:44:22.327] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, silverwoodtrees, --all, --output, F:\Programming\MinecraftModding\Projects\MC\SilverwoodTreesForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\MC\SilverwoodTreesForge\src\main\resources]
-[12серп.2025 09:44:35.849] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.1, for MC 1.21.1 with MCP 20240808.132146
-[12серп.2025 09:44:35.849] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.1 Initialized
-[12серп.2025 09:44:35.898] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[12серп.2025 09:44:36.768] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [silverwoodtrees]
-[12серп.2025 09:44:36.926] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.1_mapped_official_1.21.1/forge-1.21.1-52.1.1_mapped_official_1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[12серп.2025 09:44:36.927] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.1_mapped_official_1.21.1/forge-1.21.1-52.1.1_mapped_official_1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[12серп.2025 09:44:37.262] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[12серп.2025 09:44:38.607] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 1344 ms
-[12серп.2025 09:44:38.607] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[12серп.2025 09:44:38.945] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 335 ms
-[12серп.2025 09:44:38.945] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id silverwoodtrees
-[12серп.2025 09:44:39.027] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id silverwoodtrees finished after 79 ms
-[12серп.2025 09:44:39.027] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id silverwoodtrees
-[12серп.2025 09:44:39.037] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id silverwoodtrees finished after 8 ms
-[12серп.2025 09:44:39.037] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: silverwoodtrees
-[12серп.2025 09:44:39.234] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: silverwoodtrees finished after 197 ms
-[12серп.2025 09:44:39.234] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: silverwoodtrees
-[12серп.2025 09:44:40.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: silverwoodtrees finished after 1206 ms
-[12серп.2025 09:44:40.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[12серп.2025 09:44:40.464] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 18 ms
-[12серп.2025 09:44:40.466] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 3204 ms
-[12серп.2025 09:44:40.492] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 530, old count: 530, new count: 531, removed stale: 0, written: 1
+[19серп.2025 08:25:00.002] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 3, --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, missingtrees, --all, --output, F:\Programming\MinecraftModding\Projects\MissingTreesForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\MissingTreesForge\src\main\resources]
+[19серп.2025 08:25:00.012] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[19серп.2025 08:25:00.275] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file F:\Programming\MinecraftModding\Projects\MissingTreesForge\run-data\config\fml.toml is not correct. Correcting
+[19серп.2025 08:25:00.279] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowHeight] was corrected from null to 480
+[19серп.2025 08:25:00.281] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowControl] was corrected from null to true
+[19серп.2025 08:25:00.281] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowFBScale] was corrected from null to 1
+[19серп.2025 08:25:00.281] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowProvider] was corrected from null to fmlearlywindow
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowWidth] was corrected from null to 854
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowMaximized] was corrected from null to false
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[19серп.2025 08:25:00.283] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [splashscreen] was corrected from true to null
+[19серп.2025 08:25:00.327] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[19серп.2025 08:25:00.487] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/olega/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[19серп.2025 08:25:01.295] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[19серп.2025 08:25:01.301] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[19серп.2025 08:25:01.309] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[19серп.2025 08:25:01.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[19серп.2025 08:25:01.510] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[19серп.2025 08:25:04.681] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --assetIndex, 3, --mod, missingtrees, --all, --output, F:\Programming\MinecraftModding\Projects\MissingTreesForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\MissingTreesForge\src\main\resources]
+[19серп.2025 08:25:05.548] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [missingtrees]
+[19серп.2025 08:25:18.060] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[19серп.2025 08:25:18.069] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[19серп.2025 08:25:19.188] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[19серп.2025 08:25:19.188] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[19серп.2025 08:25:19.506] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[19серп.2025 08:25:19.727] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 219 ms
+[19серп.2025 08:25:19.727] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[19серп.2025 08:25:19.805] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 78 ms
+[19серп.2025 08:25:19.805] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id missingtrees
+[19серп.2025 08:25:19.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id missingtrees finished after 176 ms
+[19серп.2025 08:25:19.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id missingtrees
+[19серп.2025 08:25:19.985] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id missingtrees finished after 2 ms
+[19серп.2025 08:25:19.985] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: missingtrees
+[19серп.2025 08:25:20.030] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: missingtrees finished after 43 ms
+[19серп.2025 08:25:20.030] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: missingtrees
+[19серп.2025 08:25:20.505] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: missingtrees finished after 473 ms
+[19серп.2025 08:25:20.505] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[19серп.2025 08:25:20.539] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 34 ms
+[19серп.2025 08:25:20.539] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1034 ms
+[19серп.2025 08:25:20.574] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 523, old count: 523, new count: 524, removed stale: 0, written: 135

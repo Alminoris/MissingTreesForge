@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "apple",
+  "ingredients": [
+    {
+      "item": "missingtrees:apple_planks"
+    }
+  ],
+  "result": {
+    "item": "missingtrees:apple_button"
+  }
+}

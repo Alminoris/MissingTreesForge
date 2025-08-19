@@ -1,0 +1,20 @@
+{
+  "values": [
+    "missingtrees:azalea_log",
+    "missingtrees:azalea_wood",
+    "missingtrees:stripped_azalea_log",
+    "missingtrees:stripped_azalea_wood",
+    "missingtrees:apple_log",
+    "missingtrees:apple_wood",
+    "missingtrees:stripped_apple_log",
+    "missingtrees:stripped_apple_wood",
+    "missingtrees:scots_pine_log",
+    "missingtrees:scots_pine_wood",
+    "missingtrees:stripped_scots_pine_log",
+    "missingtrees:stripped_scots_pine_wood",
+    "missingtrees:swamp_oak_log",
+    "missingtrees:swamp_oak_wood",
+    "missingtrees:stripped_swamp_oak_log",
+    "missingtrees:stripped_swamp_oak_wood"
+  ]
+}

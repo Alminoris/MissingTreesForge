@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "minecraft:forest",
-  "features": "silverwoodtrees:walnut_placed",
-  "step": "vegetal_decoration"
-}
