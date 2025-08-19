@@ -75,5 +75,5 @@
   "item.missingtrees.swamp_oak_boat": "Лодка из болотного дуба",
   "item.missingtrees.swamp_oak_chest_boat": "Лодка из болотного дуба с сундуком",
   "itemgroup.missingtreestab": "Missing Trees",
-  "entity.whisperleaftrees.mod_chest_boat": "Лодка с сундуком"
+  "entity.missingtrees.mod_chest_boat": "Лодка с сундуком"
 }

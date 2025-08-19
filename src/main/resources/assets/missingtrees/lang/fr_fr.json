@@ -75,5 +75,5 @@
   "item.missingtrees.swamp_oak_boat": "Bateau en bois de chêne des marais",
   "item.missingtrees.swamp_oak_chest_boat": "Bateau en bois de chêne des marais avec coffre",
   "itemgroup.missingtreestab": "Missing Trees",
-  "entity.whisperleaftrees.mod_chest_boat": "Bateau avec coffre"
+  "entity.missingtrees.mod_chest_boat": "Bateau avec coffre"
 }

@@ -75,5 +75,5 @@
   "item.missingtrees.swamp_oak_boat": "Sumpfeichenholzboot",
   "item.missingtrees.swamp_oak_chest_boat": "Sumpfeichenholzboot mit Truhe",
   "itemgroup.missingtreestab": "Missing Trees",
-  "entity.whisperleaftrees.mod_chest_boat": "Boot mit Truhe"
+  "entity.missingtrees.mod_chest_boat": "Boot mit Truhe"
 }
