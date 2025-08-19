@@ -1,8 +1,7 @@
 {
   "values": [
-    "silverwoodtrees:walnut_sapling",
-    "silverwoodtrees:silver_maple_sapling",
-    "silverwoodtrees:staghorn_sumac_sapling",
-    "silverwoodtrees:silverberry_sapling"
+    "missingtrees:apple_sapling",
+    "missingtrees:scots_pine_sapling",
+    "missingtrees:swamp_oak_sapling"
   ]
 }

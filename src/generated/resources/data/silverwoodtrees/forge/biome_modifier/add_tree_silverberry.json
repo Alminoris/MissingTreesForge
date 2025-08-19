@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "minecraft:taiga",
-  "features": "silverwoodtrees:silverberry_placed",
-  "step": "vegetal_decoration"
-}

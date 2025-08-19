@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "missingtrees:block/swamp_oak_log",
+    "side": "missingtrees:block/swamp_oak_log"
+  }
+}

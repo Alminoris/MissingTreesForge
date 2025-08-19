@@ -1,8 +1,8 @@
 {
   "values": [
-    "silverwoodtrees:walnut_fence_gate",
-    "silverwoodtrees:silver_maple_fence_gate",
-    "silverwoodtrees:staghorn_sumac_fence_gate",
-    "silverwoodtrees:silverberry_fence_gate"
+    "missingtrees:azalea_fence_gate",
+    "missingtrees:apple_fence_gate",
+    "missingtrees:scots_pine_fence_gate",
+    "missingtrees:swamp_oak_fence_gate"
   ]
 }

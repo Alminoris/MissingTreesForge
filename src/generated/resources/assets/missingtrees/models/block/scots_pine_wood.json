@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "missingtrees:block/scots_pine_log",
+    "side": "missingtrees:block/scots_pine_log"
+  }
+}

@@ -1,20 +1,20 @@
 {
   "values": [
-    "silverwoodtrees:walnut_log",
-    "silverwoodtrees:walnut_wood",
-    "silverwoodtrees:stripped_walnut_log",
-    "silverwoodtrees:stripped_walnut_wood",
-    "silverwoodtrees:silver_maple_log",
-    "silverwoodtrees:silver_maple_wood",
-    "silverwoodtrees:stripped_silver_maple_log",
-    "silverwoodtrees:stripped_silver_maple_wood",
-    "silverwoodtrees:staghorn_sumac_log",
-    "silverwoodtrees:staghorn_sumac_wood",
-    "silverwoodtrees:stripped_staghorn_sumac_log",
-    "silverwoodtrees:stripped_staghorn_sumac_wood",
-    "silverwoodtrees:silverberry_log",
-    "silverwoodtrees:silverberry_wood",
-    "silverwoodtrees:stripped_silverberry_log",
-    "silverwoodtrees:stripped_silverberry_wood"
+    "missingtrees:azalea_log",
+    "missingtrees:azalea_wood",
+    "missingtrees:stripped_azalea_log",
+    "missingtrees:stripped_azalea_wood",
+    "missingtrees:apple_log",
+    "missingtrees:apple_wood",
+    "missingtrees:stripped_apple_log",
+    "missingtrees:stripped_apple_wood",
+    "missingtrees:scots_pine_log",
+    "missingtrees:scots_pine_wood",
+    "missingtrees:stripped_scots_pine_log",
+    "missingtrees:stripped_scots_pine_wood",
+    "missingtrees:swamp_oak_log",
+    "missingtrees:swamp_oak_wood",
+    "missingtrees:stripped_swamp_oak_log",
+    "missingtrees:stripped_swamp_oak_wood"
   ]
 }

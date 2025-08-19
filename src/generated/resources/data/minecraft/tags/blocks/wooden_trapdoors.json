@@ -1,8 +1,8 @@
 {
   "values": [
-    "silverwoodtrees:walnut_trapdoor",
-    "silverwoodtrees:silver_maple_trapdoor",
-    "silverwoodtrees:staghorn_sumac_trapdoor",
-    "silverwoodtrees:silverberry_trapdoor"
+    "missingtrees:azalea_trapdoor",
+    "missingtrees:apple_trapdoor",
+    "missingtrees:scots_pine_trapdoor",
+    "missingtrees:swamp_oak_trapdoor"
   ]
 }

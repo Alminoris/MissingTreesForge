@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "azalea",
+  "key": {
+    "#": {
+      "item": "missingtrees:azalea_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "missingtrees:azalea_stairs"
+  },
+  "show_notification": true
+}

@@ -1,8 +1,8 @@
 {
   "values": [
-    "silverwoodtrees:walnut_sign_item",
-    "silverwoodtrees:silver_maple_sign_item",
-    "silverwoodtrees:staghorn_sumac_sign_item",
-    "silverwoodtrees:silverberry_sign_item"
+    "missingtrees:azalea_sign_item",
+    "missingtrees:apple_sign_item",
+    "missingtrees:scots_pine_sign_item",
+    "missingtrees:swamp_oak_sign_item"
   ]
 }

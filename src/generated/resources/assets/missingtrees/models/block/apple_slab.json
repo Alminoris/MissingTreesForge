@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "missingtrees:block/apple_planks",
+    "side": "missingtrees:block/apple_planks",
+    "top": "missingtrees:block/apple_planks"
+  }
+}

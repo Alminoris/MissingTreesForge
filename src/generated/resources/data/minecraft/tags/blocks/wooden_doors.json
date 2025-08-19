@@ -1,8 +1,8 @@
 {
   "values": [
-    "silverwoodtrees:walnut_door",
-    "silverwoodtrees:silver_maple_door",
-    "silverwoodtrees:staghorn_sumac_door",
-    "silverwoodtrees:silverberry_door"
+    "missingtrees:azalea_door",
+    "missingtrees:apple_door",
+    "missingtrees:scots_pine_door",
+    "missingtrees:swamp_oak_door"
   ]
 }

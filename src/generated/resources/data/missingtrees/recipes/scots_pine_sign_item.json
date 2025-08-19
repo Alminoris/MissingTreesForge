@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "scots_pine",
+  "key": {
+    "#": {
+      "item": "missingtrees:scots_pine_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "item": "missingtrees:scots_pine_sign_item"
+  },
+  "show_notification": true
+}
