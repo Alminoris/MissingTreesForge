@@ -30,5 +30,6 @@
     "recipes": [
       "missingtrees:apple_fence"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

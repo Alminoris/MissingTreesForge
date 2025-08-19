@@ -30,5 +30,6 @@
     "recipes": [
       "missingtrees:apple_sign_item"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

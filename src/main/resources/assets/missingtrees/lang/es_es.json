@@ -75,5 +75,5 @@
   "item.missingtrees.swamp_oak_boat": "Barca de roble pantanoso",
   "item.missingtrees.swamp_oak_chest_boat": "Barca de roble pantanoso con cofre",
   "itemgroup.missingtreestab": "Missing Trees",
-  "entity.whisperleaftrees.mod_chest_boat": "Barco con cofre"
+  "entity.missingtrees.mod_chest_boat": "Barco con cofre"
 }

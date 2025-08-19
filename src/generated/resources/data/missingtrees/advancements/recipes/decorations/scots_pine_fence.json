@@ -30,5 +30,6 @@
     "recipes": [
       "missingtrees:scots_pine_fence"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -16,7 +16,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -44,6 +44,8 @@ public class MissingTrees
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModItemGroups.register(modEventBus);
+
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
@@ -62,54 +64,13 @@ public class MissingTrees
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(CreativeModeTabEvent.BuildContents event)
+    private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTab() == ModItemGroups.MISSINGTREES_TAB)
-        {
-            for (String name : WOOD_NAMES)
-            {
-                if (!name.equals("azalea"))
-                {
-                    if (name.equals("apple")) event.accept(Items.APPLE);
-                    event.accept(WOODEN_SAPLINGS.get(name).get());
-                }
-                else
-                {
-                    event.accept(Blocks.AZALEA);
-                    event.accept(Blocks.FLOWERING_AZALEA);
-                }
-                if (!name.equals("azalea"))
-                {
-                    event.accept(LEAVES.get(name).get());
-                    if (name.equals("apple")) event.accept(ModBlocks.APPLE_FRUIT_LEAVES);
-                }
-                else
-                {
-                    event.accept(Blocks.AZALEA_LEAVES);
-                    event.accept(Blocks.FLOWERING_AZALEA_LEAVES);
-                }
-                event.accept(LOGS.get(name).get());
-                event.accept(WOODS.get(name).get());
-                event.accept(STRIPPED_LOGS.get(name).get());
-                event.accept(STRIPPED_WOODS.get(name).get());
-                event.accept(WOODEN_PLANKS.get(name).get());
-                event.accept(WOODEN_SLABS.get(name).get());
-                event.accept(WOODEN_STAIRS.get(name).get());
-                event.accept(WOODEN_FENCES.get(name).get());
-                event.accept(WOODEN_FENCE_GATES.get(name).get());
-                event.accept(WOODEN_DOORS.get(name).get());
-                event.accept(WOODEN_TRAPDOORS.get(name).get());
-                event.accept(WOODEN_BUTTONS.get(name).get());
-                event.accept(WOODEN_PRESSURE_PLATES.get(name).get());
-                event.accept(WOODEN_SIGN_ITEMS.get(name).get());
-                event.accept(WOODEN_HANGING_SIGN_ITEMS.get(name).get());
-                event.accept(WOODEN_BOATS.get(name).get());
-                event.accept(WOODEN_CHEST_BOATS.get(name).get());
-            }
-        }
+        //if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        //event.accept(EXAMPLE_BLOCK_ITEM);
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
+        // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
@@ -130,16 +91,16 @@ public class MissingTrees
             EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
             EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
-            event.enqueueWork(() -> {
-                for (String name : WOOD_NAMES) {
-                    // Двери
+            event.enqueueWork(() ->
+            {
+                for (String name : WOOD_NAMES)
+                {
                     ItemBlockRenderTypes.setRenderLayer(ModBlockSetsHelper.WOODEN_DOORS.get(name).get(), RenderType.cutout());
 
-                    // Люки
                     ItemBlockRenderTypes.setRenderLayer(ModBlockSetsHelper.WOODEN_TRAPDOORS.get(name).get(), RenderType.cutout());
 
-                    // Саженцы
-                    ItemBlockRenderTypes.setRenderLayer(ModBlockSetsHelper.WOODEN_SAPLINGS.get(name).get(), RenderType.cutout());
+                    if (!name.equals("azalea"))
+                        ItemBlockRenderTypes.setRenderLayer(ModBlockSetsHelper.WOODEN_SAPLINGS.get(name).get(), RenderType.cutout());
                 }
             });
         }

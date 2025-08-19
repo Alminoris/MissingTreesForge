@@ -30,5 +30,6 @@
     "recipes": [
       "missingtrees:azalea_sign_item"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -74,6 +74,6 @@
   "block.missingtrees.stripped_swamp_oak_wood": "Stripped Swamp Oak Wood",
   "item.missingtrees.swamp_oak_boat": "Swamp Oak Boat",
   "item.missingtrees.swamp_oak_chest_boat": "Swamp Oak Chest Boat",
-  "entity.whisperleaftrees.mod_chest_boat": "Chest Boat",
+  "entity.missingtrees.mod_chest_boat": "Chest Boat",
   "itemgroup.missingtreestab": "Missing Trees"
 }

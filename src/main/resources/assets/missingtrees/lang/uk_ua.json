@@ -75,5 +75,5 @@
   "item.missingtrees.swamp_oak_boat": "Човен з болотного дуба",
   "item.missingtrees.swamp_oak_chest_boat": "Човен з болотного дуба зі скринею",
   "itemgroup.missingtreestab": "Missing Trees",
-  "entity.whisperleaftrees.mod_chest_boat": "Човен зі скринею"
+  "entity.missingtrees.mod_chest_boat": "Човен зі скринею"
 }

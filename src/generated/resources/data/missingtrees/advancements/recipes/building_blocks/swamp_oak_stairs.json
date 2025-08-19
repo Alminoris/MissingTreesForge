@@ -30,5 +30,6 @@
     "recipes": [
       "missingtrees:swamp_oak_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

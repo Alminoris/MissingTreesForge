@@ -24,5 +24,6 @@
     "recipes": [
       "missingtrees:scots_pine_boat"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }
